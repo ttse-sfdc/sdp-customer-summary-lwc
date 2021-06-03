@@ -18,11 +18,11 @@ export default class Example extends LightningElement {
     get latestSentiment() {
         if(this.account.data)
             if(getFieldValue(this.account.data, LATEST_SENTIMENT_FIELD) == "Negative")
-                return "😡";
+                return "https://sdologodump.s3-us-west-2.amazonaws.com/negative.png";
             else if (getFieldValue(this.account.data, LATEST_SENTIMENT_FIELD) == "Positive")
-                return "😃";
+                return "https://sdologodump.s3-us-west-2.amazonaws.com/positive.png";
             else
-                return "😐"
+                return "https://sdologodump.s3-us-west-2.amazonaws.com/neutral.png"
         else
             return "";
     }
