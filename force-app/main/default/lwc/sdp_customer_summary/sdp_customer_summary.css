@@ -50,7 +50,7 @@ body{
 }
 
 .head span{
-  color: #7d818f;
+  color: #aaabaf;
   font-size: 14px;
 }
 
@@ -68,24 +68,17 @@ body{
 
 .inner-data p{
   font-size: 10px;
-  color:#444;
   /**padding-bottom: 5px;**/
 }
 
 .inner-data span{
   font-size: 16px;
   font-weight: 400;
-  color:#7d818f;
 }
 
 div.watermark{
   font-size: 10px;
   float: right;
-    margin-top: -30px;
   padding: 15px 0px 0px 0px;
   color: #aaabaf;
-}
-.sent-logo{
-    max-width: 45%;
-    height: auto;
 }
